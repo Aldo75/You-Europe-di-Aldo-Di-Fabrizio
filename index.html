@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Europe — Progetti europei che generano impatto</title>
+    <style>
+        /* STILI DI BASE INTEGRATI */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #0f172a; color: #f1f5f9; margin: 0; padding: 0; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        a { color: inherit; text-decoration: none; transition: color 0.2s; }
+        
+        /* NAVBAR */
+        header { background-color: #0f172a; border-bottom: 1px solid #1e293b; position: sticky; top: 0; z-index: 50; }
+        .navbar { display: flex; align-items: center; justify-content: space-between; py: 16px; height: 70px; }
+        .logo-box { display: flex; align-items: center; gap: 8px; font-weight: bold; font-size: 24px; color: #ffffff; }
+        .nav-links { display: flex; gap: 40px; }
+        .nav-links a:hover { color: #f59e0b; text-decoration: underline; }
+        .btn-cta { background-color: #ffffff; color: #0f172a; font-weight: bold; border-radius: 9999px; padding: 12px 24px; font-size: 15px; }
+        .btn-cta:hover { background-color: #f59e0b; }
+
+        /* HERO */
+        .hero { padding: 80px 0; text-align: center; }
+        h1 { font-size: 48px; font-weight: 800; color: #ffffff; line-height: 1.2; margin-bottom: 24px; }
+        .hero p { font-size: 20px; color: #cbd5e1; max-width: 700px; margin: 0 auto 32px auto; }
+        .btn-primary { background-color: #f59e0b; color: #0f172a; font-weight: bold; border-radius: 9999px; padding: 16px 32px; display: inline-block; font-size: 18px; }
+        .btn-primary:hover { background-color: #d97706; }
+        .features-list { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; margin-top: 48px; color: #94a3b8; font-size: 14px; }
+
+        /* SEZIONI E CARDS */
+        .section-bando { background-color: #1e293b; padding: 60px 24px; border-radius: 16px; margin: 40px auto; text-align: center; max-width: 800px; }
+        .badge { background-color: rgba(245, 158, 11, 0.1); color: #f59e0b; font-size: 12px; font-weight: bold; padding: 4px 12px; rounded-radius: 9999px; text-transform: uppercase; }
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; margin-top: 48px; }
+        .card { background-color: #1e293b; padding: 32px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.05); }
+        .card h3 { color: #ffffff; margin-top: 0; }
+        .text-amber { color: #f59e0b; font-weight: 600; }
+
+        /* CHI SIAMO E NUMERI */
+        .flex-cols { display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding: 60px 0; }
+        .col { flex: 1; min-width: 300px; }
+        .stat-box { background-color: #1e293b; padding: 24px; border-radius: 16px; margin-bottom: 16px; }
+        .stat-num { font-size: 40px; font-weight: 800; color: #f59e0b; }
+
+        /* FOOTER */
+        footer { background-color: #020617; py: 32px; margin-top: 80px; border-top: 1px solid #0f172a; font-size: 13px; color: #64748b; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo-box">
+                <svg width="34" height="34" viewBox="0 0 100 100" fill="none" style="margin-right: -8px;">
+                    <path d="M50 8 L61 38 L93 38 L67 57 L77 88 L50 69 L23 88 L33 57 L7 38 L39 38 Z" stroke="#f59e0b" stroke-width="4" stroke-linejoin="round" fill="none"></path>
+                </svg>
+                <div>you Europe</div>
+            </a>
+            <nav class="nav-links">
+                <a href="#servizi">Servizi</a>
+                <a href="#chi-siamo">Team</a>
+                <a href="#contatti">Contatti</a>
+            </nav>
+            <a class="btn-cta" href="#contatti">Consulenza gratuita</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="container hero">
+        <h1>Costruiamo progetti europei<br>che generano impatto</h1>
+        <p>Affianchiamo enti, associazioni e organizzazioni nella realizzazione di iniziative ad alto valore pubblico.</p>
+        <a href="#servizi" class="btn-primary">Scopri i nostri servizi</a>
+        <div class="features-list">
+            <span>✓ Esperienza internazionale</span>
+            <span>✓ Formazione efficace</span>
+            <span>✓ Metodologia solida</span>
+            <span>✓ Co-progettazione</span>
+        </div>
+    </section>
+
+    <!-- BANDO IN EVIDENZA -->
+    <section class="container">
+        <div class="section-bando">
+            <span class="badge">Bando in evidenza</span>
+            <h2>Digitalizzazione delle PMI — PR FESR Abruzzo 2021-2027</h2>
+            <p>Contributo a fondo perduto per micro, piccole e medie imprese abruzzesi, ditte individuali e liberi professionisti che vogliono rafforzare le proprie strategie di vendita attraverso la digitalizzazione.</p>
+            <div class="text-amber" style="font-size: 24px; margin: 16px 0;">Dotazione: € 10.000.000 | Contributo: 40% – 70%</div>
+            <p style="font-size: 14px; color: #94a3b8;">Sportello telematico: 21 set – 12 ott 2026</p>
+        </div>
+    </section>
+
+    <!-- SERVIZI -->
+    <section id="servizi" class="container" style="padding: 60px 0;">
+        <div style="text-center">
+            <h2 style="font-size: 36px; text-align:center; color:#fff;">I Nostri Servizi</h2>
+        </div>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Europrogettazione</h3>
+                <p>Ti aiutiamo a ideare, scrivere e gestire progetti europei: dalla candidatura alla rendicontazione.</p>
+                <a href="#contatti" class="text-amber">Scopri di più →</a>
+            </div>
+            <div class="card">
+                <h3>Formazione</h3>
+                <p>Percorsi formativi per enti, scuole e organizzazioni. Competenze, soft skills e innovazione.</p>
+                <a href="#contatti" class="text-amber">Richiedi il programma →</a>
+            </div>
+            <div class="card">
+                <h3>Networking</h3>
+                <p>Costruiamo reti internazionali per progetti europei. Supportiamo dissemination e partnership strategiche.</p>
+                <a href="#contatti" class="text-amber">Parla con noi →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHI SIAMO -->
+    <section id="chi-siamo" class="container flex-cols">
+        <div class="col">
+            <h2>Costruiamo impatto attraverso competenza e visione europea</h2>
+            <p>Supportiamo enti, imprese e organizzazioni nello sviluppo, nella gestione e nella formazione su progetti europei. Coniughiamo strategia, competenza tecnica e passione per il cambiamento.</p>
+            <p class="text-amber">“Ogni progetto europeo è un'opportunità. Il nostro compito è aiutarti a sfruttarla al meglio.”<br><span style="color:#fff; font-size:14px;">— Dott. Aldo Di Fabrizio, Fondatore</span></p>
+        </div>
+        <div class="col">
+            <div class="stat-box">
+                <div class="stat-num">80+</div>
+                <div>Aziende supportate che ci hanno scelto per crescere.</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">100+</div>
+                <div>Progetti europei gestiti con metodo e attenzione ai risultati.</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">1200+</div>
+                <div>Professionisti formati grazie a un approccio concreto.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section id="contatti" class="container" style="padding: 60px 0; text-align: center;">
+        <h2>Contattaci ora per una consulenza gratuita</h2>
+        <div class="grid-3" style="text-align: left; max-width: 900px; margin: 40px auto 0 auto;">
+            <div class="card">
+                <strong>Telefono</strong><br>
+                <a href="tel:+393299639746" class="text-amber">+39 329 9639746</a>
+            </div>
+            <div class="card">
+                <strong>E-mail</strong><br>
+                <a href="mailto:info@you-europe.eu" class="text-amber">info@you-europe.eu</a>
+            </div>
+            <div class="card">
+                <strong>Indirizzo</strong><br>
+                Viale San Francesco, 82<br>65017 Penne (PE)
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p><strong>you Europe</strong> — Il tuo partner per i progetti europei di successo. P.IVA IT 02035870688</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
